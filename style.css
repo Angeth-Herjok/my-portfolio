@@ -1,0 +1,166 @@
+body{
+    background-color: darkgray;
+    height: 90vh;
+
+}
+.head{
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: dimgray;
+    box-sizing: border-box;
+    height: 5%;
+    border-radius: 25px;
+    
+}
+.logo{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo:hover{
+    color: crimson;
+}
+span{
+    color: rgb(163, 32, 95);
+    font-weight: bolder;
+    font-size: larger;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: crimson;
+    transition: .3s;
+}
+.navButton{
+    border: none;
+    border: 3px solid rgb(63, 11, 46);
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: .4s;
+    background-color: #868e96;
+}
+.navButton:hover{
+    color: crimson;
+    transition: .2s;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    margin-top: 5%;
+}
+.myimage{
+    margin-left: 10%;
+    width: 35%;
+    border-radius: 50%;
+}
+.myself{
+    background-image: url("oliver.jpg");
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.myself1{
+    display: flex;
+    margin-top: 5%;
+}
+.myheading{
+    color: white;
+    margin-top: 15%;
+    margin-left: 13%;
+
+}
+.media{
+    margin-left: 5%;
+    color: rgb(36, 5, 36);
+    font-size: xx-large;
+    margin-top: 25%;
+}
+.button2{
+    padding: 15px 65px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: 3px solid rgb(90, 7, 69);
+    margin-top: 29%;
+    background-color: #868e96;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.p1{
+    font-weight: bolder;
+}
+.ion-icon2{
+    color: rgb(49, 6, 49);
+}
+.line{
+    margin-top: 5%;
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+.button3{
+    padding: 35px 15px;
+    border-radius: 100px;
+    border: 3px solid rgb(90, 7, 69);
+    background-color: darkcyan;
+    font-size: small;
+}
+.button4{
+    padding: 35px 15px;
+    border-radius: 100px;
+    border: 3px solid rgb(90, 7, 69);
+    background-color: darkgreen;
+
+}
+.button5{
+    padding: 35px 15px;
+    border-radius: 100px;
+    background-color: deeppink;
+    border: 3px solid rgb(90, 7, 69);
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+}
+.button2:hover{
+    color: crimson;
+}
+.button3:hover{
+    color: crimson;
+}
+.button4:hover{
+    color: crimson;
+}
+.button5:hover{
+    color: crimson;
+}
+.me{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.soft{
+    margin-left: 41%;
+    font-weight: bolder;
+    color: rgb(116, 37, 53);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
