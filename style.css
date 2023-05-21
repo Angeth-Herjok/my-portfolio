@@ -27,9 +27,9 @@ nav{
     color: crimson;
 }
 span{
-    color: rgb(163, 32, 95);
+    color: rgb(128, 19, 55);
     font-weight: bolder;
-    font-size: larger;
+    font-size: xx-large;
 }
 nav ul li{
     list-style-type: none;
@@ -48,7 +48,7 @@ nav ul li a:hover{
 .navButton{
     border: none;
     border: 3px solid rgb(63, 11, 46);
-    padding: 5px 15px;
+    padding: 8px 55px;
     border-radius: 25px;
     color: white;
     font-weight: bold;
@@ -87,7 +87,7 @@ nav ul li a:hover{
 
 }
 .media{
-    margin-left: 5%;
+    margin-left: 6%;
     color: rgb(36, 5, 36);
     font-size: xx-large;
     margin-top: 25%;
@@ -99,6 +99,7 @@ nav ul li a:hover{
     border: 3px solid rgb(90, 7, 69);
     margin-top: 29%;
     background-color: #868e96;
+    
 }
 .info{
     display: flex;
@@ -122,21 +123,23 @@ nav ul li a:hover{
     padding: 35px 15px;
     border-radius: 100px;
     border: 3px solid rgb(90, 7, 69);
-    background-color: darkcyan;
+    background-color: rgb(6, 10, 10);
     font-size: small;
+    color: aliceblue;
 }
 .button4{
     padding: 35px 15px;
     border-radius: 100px;
     border: 3px solid rgb(90, 7, 69);
-    background-color: darkgreen;
-
+    background-color: rgb(1, 10, 1);
+    color: aliceblue;
 }
 .button5{
     padding: 35px 15px;
     border-radius: 100px;
-    background-color: deeppink;
+    background-color: black;
     border: 3px solid rgb(90, 7, 69);
+    color: aliceblue;
 }
 .about{
     font-family: 'Times New Roman', Times, serif;
@@ -165,8 +168,90 @@ nav ul li a:hover{
     margin-top: 5%;
 }
 .tech{
-    margin-left: 20%;
+    margin-left: 5%;
+    
 }
 .tech1{
+
+    margin-top: 3%;
+    display: flex;
+    
+}
+.technology{
+    font-size: x-large;
+    margin-top: 50%;
+    color: aliceblue;
+}
+h4{
+    font-size: large;
+    margin-left: 25%;
+}
+h5{
+    font-size: large;
+}
+.skill1{
+    font-size: large;
+    margin-right: 30%;
+}
+.skill{
+    font-size: large;
+    margin-left: 25%;
+}
+.tech2{
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    height: 90vh;
+    border-radius: 20px;
+}
+.img1{
+    margin-left: 18%;
+    margin-top: 4%; 
+}
+.tecy{
+   border-radius: 90px;
+   width: 80%;
+}
+.research{
+    margin-left: 35%;
+}
+.langl{
     margin-left: 10%;
 }
+.documents{
+    margin-left: 38%;
+    margin-top: 6%;
+}
+
+
+.services h2{
+ margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    align-items: center;
+    border: .2rem solid var(--bg-color);
+}
+.services-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.services-box h3{
+    font-size: 2.6rem;
+}
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+
+
