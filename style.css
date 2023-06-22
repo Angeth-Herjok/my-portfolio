@@ -44,7 +44,10 @@ body{
     font-size: xx-large;
     font-weight: bolder;
   }
-
+.navButton{
+    padding: 10px 40px;
+    background-color: #9004d9;
+}
 /* nav */
 
 
@@ -167,7 +170,7 @@ body{
     
 }
 .technology{
-    font-size: x-large;
+    font-size: large;
     margin-top: 50%;
     color: aliceblue;
 }
