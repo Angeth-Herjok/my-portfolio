@@ -182,12 +182,14 @@ h5{
     font-size: large;
 }
 .skill1{
-    font-size: large;
+    font-size: 15px;
     margin-right: 30%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skill{
-    font-size: large;
+    font-size: 15px;
     margin-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .tech2{
     display: flex;
@@ -210,8 +212,9 @@ h5{
     margin-left: 10%;
 }
 .documents{
-    margin-left: 38%;
-    margin-top: 6%;
+    margin-left: 33%;
+    /* margin-top: 6%; */
+    margin-bottom: 60px;
 }
 
 
